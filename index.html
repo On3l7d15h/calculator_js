@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Calculator </title>
+		<style>
+			@import url(styles/style1.css);
+		</style>
+	</head>
+
+	<body>
+	<!-- alert propio -->
+		<div class = "back">
+			<div class = "alert">
+				<button>X</button>
+				<section class = "alert_info_left">
+					<span> On3l7d15h </span>
+				</section>
+				<section class = "alert_info_right">
+					<h1> ¡Información!  </h1>
+					<p> El uso de esta calculadora es sencillo, digite una operaciónclickeando los botones, dele a <span>=</span> para desplegar su resultado. Si desea ver el <span>historial</span>, dirijase al boton semi escondido, hagale click y verá el historial de sus operaciones, estas no se eliminaran, aunque usted salga de la página, a menos que usted mismo, <span>así lo desee</span>. :D recuerde dejar su like.</p>
+				</section>
+			</div>
+		</div>
+		<!-- Botón change, para historial  -->
+		<button class = "change"><i class="fas fa-history"></i></button>
+		<!-- Div calculadora -->
+		<div class = "calc">
+			<input type = "text" readonly = ""/>
+			<button>AC</button>
+			<button>!</button>
+			<button>/</button>
+			<button>7</button>
+			<button>8</button>
+			<button>9</button>
+			<button>*</button>
+			<button>4</button>
+			<button>5</button>
+			<button>6</button>
+			<button>-</button>
+			<button>1</button>
+			<button>2</button>
+			<button>3</button>
+			<button>+</button>
+			<button>0</button>
+			<button>.</button>
+			<button>=</button>
+		</div>
+		<div class = "calcHistory">
+			<h1> History </h1>
+				<section class = "calcHistory_sec"></section>
+				<button class = "delete"> Delete  </button>
+		</div>
+		<!-- Scripts de javascript -->
+		<script src="https://kit.fontawesome.com/54d3483a2b.js" crossorigin="anonymous"></script>
+		<script src = "script/script1.js"></script>
+	</body>
+</html>
